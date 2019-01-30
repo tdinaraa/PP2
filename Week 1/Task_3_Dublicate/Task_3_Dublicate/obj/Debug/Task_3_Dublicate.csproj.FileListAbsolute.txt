@@ -1,0 +1,7 @@
+C:\Users\ASUS\source\repos\Task_3_Dublicate\Task_3_Dublicate\bin\Debug\Task_3_Dublicate.exe.config
+C:\Users\ASUS\source\repos\Task_3_Dublicate\Task_3_Dublicate\bin\Debug\Task_3_Dublicate.exe
+C:\Users\ASUS\source\repos\Task_3_Dublicate\Task_3_Dublicate\bin\Debug\Task_3_Dublicate.pdb
+C:\Users\ASUS\source\repos\Task_3_Dublicate\Task_3_Dublicate\obj\Debug\Task_3_Dublicate.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Task_3_Dublicate\Task_3_Dublicate\obj\Debug\Task_3_Dublicate.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Task_3_Dublicate\Task_3_Dublicate\obj\Debug\Task_3_Dublicate.exe
+C:\Users\ASUS\source\repos\Task_3_Dublicate\Task_3_Dublicate\obj\Debug\Task_3_Dublicate.pdb

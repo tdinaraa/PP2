@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\github\Week 1\Task_2_Student\Task_2_Student\obj\Debug\Task_2_Student.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\github\Week 1\Task_2_Student\Task_2_Student\obj\Debug\Task_2_Student.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\github\Week 1\Task_2_Student\Task_2_Student\bin\Debug\Task_2_Student.exe.config
+C:\Users\ASUS\Desktop\github\Week 1\Task_2_Student\Task_2_Student\bin\Debug\Task_2_Student.exe
+C:\Users\ASUS\Desktop\github\Week 1\Task_2_Student\Task_2_Student\bin\Debug\Task_2_Student.pdb
+C:\Users\ASUS\Desktop\github\Week 1\Task_2_Student\Task_2_Student\obj\Debug\Task_2_Student.exe
+C:\Users\ASUS\Desktop\github\Week 1\Task_2_Student\Task_2_Student\obj\Debug\Task_2_Student.pdb
