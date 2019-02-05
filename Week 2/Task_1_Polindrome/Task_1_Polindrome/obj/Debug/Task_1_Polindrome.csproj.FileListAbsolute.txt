@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\Task_1_Polindrome\Task_1_Polindrome\bin\Debug\Task_1_Polindrome.exe.config
+C:\Users\ASUS\source\repos\Task_1_Polindrome\Task_1_Polindrome\bin\Debug\Task_1_Polindrome.exe
+C:\Users\ASUS\source\repos\Task_1_Polindrome\Task_1_Polindrome\bin\Debug\Task_1_Polindrome.pdb
+C:\Users\ASUS\source\repos\Task_1_Polindrome\Task_1_Polindrome\obj\Debug\Task_1_Polindrome.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Task_1_Polindrome\Task_1_Polindrome\obj\Debug\Task_1_Polindrome.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Task_1_Polindrome\Task_1_Polindrome\obj\Debug\Task_1_Polindrome.exe
+C:\Users\ASUS\source\repos\Task_1_Polindrome\Task_1_Polindrome\obj\Debug\Task_1_Polindrome.pdb
+C:\Users\ASUS\Desktop\github\Week 2\Task_1_Polindrome\Task_1_Polindrome\bin\Debug\Task_1_Polindrome.exe.config
+C:\Users\ASUS\Desktop\github\Week 2\Task_1_Polindrome\Task_1_Polindrome\bin\Debug\Task_1_Polindrome.exe
+C:\Users\ASUS\Desktop\github\Week 2\Task_1_Polindrome\Task_1_Polindrome\bin\Debug\Task_1_Polindrome.pdb
+C:\Users\ASUS\Desktop\github\Week 2\Task_1_Polindrome\Task_1_Polindrome\obj\Debug\Task_1_Polindrome.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\github\Week 2\Task_1_Polindrome\Task_1_Polindrome\obj\Debug\Task_1_Polindrome.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\github\Week 2\Task_1_Polindrome\Task_1_Polindrome\obj\Debug\Task_1_Polindrome.exe
+C:\Users\ASUS\Desktop\github\Week 2\Task_1_Polindrome\Task_1_Polindrome\obj\Debug\Task_1_Polindrome.pdb

@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\Task_2_Prime2\Task_2_Prime2\bin\Debug\Task_2_Prime2.exe.config
+C:\Users\ASUS\source\repos\Task_2_Prime2\Task_2_Prime2\bin\Debug\Task_2_Prime2.exe
+C:\Users\ASUS\source\repos\Task_2_Prime2\Task_2_Prime2\bin\Debug\Task_2_Prime2.pdb
+C:\Users\ASUS\source\repos\Task_2_Prime2\Task_2_Prime2\obj\Debug\Task_2_Prime2.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Task_2_Prime2\Task_2_Prime2\obj\Debug\Task_2_Prime2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Task_2_Prime2\Task_2_Prime2\obj\Debug\Task_2_Prime2.exe
+C:\Users\ASUS\source\repos\Task_2_Prime2\Task_2_Prime2\obj\Debug\Task_2_Prime2.pdb
+C:\Users\ASUS\Desktop\Task_2_Prime2\Task_2_Prime2\bin\Debug\Task_2_Prime2.exe.config
+C:\Users\ASUS\Desktop\Task_2_Prime2\Task_2_Prime2\bin\Debug\Task_2_Prime2.exe
+C:\Users\ASUS\Desktop\Task_2_Prime2\Task_2_Prime2\bin\Debug\Task_2_Prime2.pdb
+C:\Users\ASUS\Desktop\Task_2_Prime2\Task_2_Prime2\obj\Debug\Task_2_Prime2.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Task_2_Prime2\Task_2_Prime2\obj\Debug\Task_2_Prime2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Task_2_Prime2\Task_2_Prime2\obj\Debug\Task_2_Prime2.exe
+C:\Users\ASUS\Desktop\Task_2_Prime2\Task_2_Prime2\obj\Debug\Task_2_Prime2.pdb
