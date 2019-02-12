@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\FarManager_lab3\FarManager_lab3\bin\Debug\FarManager_lab3.exe.config
+C:\Users\ASUS\source\repos\FarManager_lab3\FarManager_lab3\bin\Debug\FarManager_lab3.exe
+C:\Users\ASUS\source\repos\FarManager_lab3\FarManager_lab3\bin\Debug\FarManager_lab3.pdb
+C:\Users\ASUS\source\repos\FarManager_lab3\FarManager_lab3\obj\Debug\FarManager_lab3.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\FarManager_lab3\FarManager_lab3\obj\Debug\FarManager_lab3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\FarManager_lab3\FarManager_lab3\obj\Debug\FarManager_lab3.exe
+C:\Users\ASUS\source\repos\FarManager_lab3\FarManager_lab3\obj\Debug\FarManager_lab3.pdb
+C:\Users\ASUS\Desktop\github\Week 3\FarManager_lab3\FarManager_lab3\bin\Debug\FarManager_lab3.exe.config
+C:\Users\ASUS\Desktop\github\Week 3\FarManager_lab3\FarManager_lab3\bin\Debug\FarManager_lab3.exe
+C:\Users\ASUS\Desktop\github\Week 3\FarManager_lab3\FarManager_lab3\bin\Debug\FarManager_lab3.pdb
+C:\Users\ASUS\Desktop\github\Week 3\FarManager_lab3\FarManager_lab3\obj\Debug\FarManager_lab3.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\github\Week 3\FarManager_lab3\FarManager_lab3\obj\Debug\FarManager_lab3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\github\Week 3\FarManager_lab3\FarManager_lab3\obj\Debug\FarManager_lab3.exe
+C:\Users\ASUS\Desktop\github\Week 3\FarManager_lab3\FarManager_lab3\obj\Debug\FarManager_lab3.pdb
