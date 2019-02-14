@@ -6,41 +6,40 @@ using System.Threading.Tasks;
 
 namespace Task_2_secondversion
 {
-    class Student //special class for Student
+    class Student //отдельный класс студентов
     {
-        //global variables of class Student
-        public string name; //name is identified as string
-        public string id; //id is identified as string (it may consists letters and numbers)
-        public int year; //year is identified as int (numbers only)
+        //глобальные переменные класса
+        public string name;
+        public string id; 
+        public int year; 
 
-
-        public Student(string name, string id) //constructor with two parameters
+        public Student(string name, string id) //конструктор с двумя параметрами
         {
-            this.name = name; //initialize variables using pointers
+            this.name = name; //переменные инициализируются при помощи указателя
             this.id = id;
         }
 
-        public void AddYear() //method that used to increse the year
+        public void AddYear() //метод, используемый для увелечения года
         {
             this.year++;
         }
 
-        public void ShowInfo() //method that used to access for all info about student
+        public void ShowInfo() //метод, используемый для выода всей информации
         {
             Console.WriteLine(name + " " + id + " " + year);
         }
 
-        public string Name() //method to access the name
+        public string Name() //метод, используемый для доступа к имени
         {
             return this.name;
         }
 
-        public string ID() //method to access the id
+        public string ID() //метод, используемый для доступа к айди
         {
             return this.id;
         }
 
-        public int Year() //method to access the year
+        public int Year() //метод, используемый для доступа к году обучения
         {
             return this.year;
         }
@@ -53,14 +52,14 @@ namespace Task_2_secondversion
         {
             string name, id;
             name = Console.ReadLine();
-            id = Console.ReadLine(); //data that are used
+            id = Console.ReadLine(); //данные, используемые для считывания инфрмации консольем 
 
-            Student st = new Student(name, id); //new object that consists the name and id of student
-           
-            for (int i = 0; i < 4; i++) //cycles used to output data 4 times
+            Student st = new Student(name, id); //новый объект, использующий имя и айди
+
+            for (int i = 0; i < 4; i++) //цикл для вывода данных
             {
-                st.AddYear();//year is increased by 1
-                Console.WriteLine(st.Name() + " " + st.ID() + " " + st.Year()); //all data are output
+                st.AddYear(); //каждый раз год увеличивается
+                Console.WriteLine(st.Name() + " " + st.ID()+ " " + st.Year()); //все данные выводятся
             }
 
         }

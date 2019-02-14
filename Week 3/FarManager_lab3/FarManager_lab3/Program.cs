@@ -9,18 +9,18 @@ namespace FarManager_lab3
 {
     class Program
     {
-        static string path = @"C:\Users\ASUS\Desktop\ForLab3";
-        static FileSystemInfo currentFSI;
+        static string path = @"C:\Users\ASUS\Desktop\github\Week 3\ForLab3"; //используемый путь
+        static FileSystemInfo currentFSI; //текущий элемент 
         static int selectedindex = 0;
-        static Stack<string> hist = new Stack<string>();
+        static Stack<string> hist = new Stack<string>(); //стэк для хранения того или иного пути
 
 
         static void Show()
         {
-            Console.SetCursorPosition(0, 0);
-            DirectoryInfo d = new DirectoryInfo(@path);
+            Console.SetCursorPosition(0, 0); //каждый раз позиция курсора 0,0 при запуске функции Show
+            DirectoryInfo d = new DirectoryInfo(@path); //все папки берутся с указанного пути
 
-            List<FileSystemInfo> li = new List<FileSystemInfo>();
+            List<FileSystemInfo> li = new List<FileSystemInfo>(); //List используется для вывода сначала папок, затем файлов
             li.AddRange(d.GetDirectories());
             li.AddRange(d.GetFiles());
             FileSystemInfo[] fsi = li.ToArray();
@@ -29,39 +29,39 @@ namespace FarManager_lab3
             for (int i = 0; i < fsi.Length; i++)
             {
                 FileSystemInfo fs = fsi[i];
-                if (selectedindex == i)
+                if (selectedindex == i) //выбранный элемент закрашен в красный цвет
                 {
                     Console.BackgroundColor = ConsoleColor.Red;
                 }
-                else
+                else //фон остальных элементов черный
                 {
                     Console.BackgroundColor = ConsoleColor.Black;
                 }
 
-                if (fs.GetType() == typeof(DirectoryInfo))
+                if (fs.GetType() == typeof(DirectoryInfo)) //если тип объекта папка, цвет текста меняется на белый цвет
                 {
                     Console.ForegroundColor = ConsoleColor.White;
                 }
 
-                else
+                else //если тип объекта файл, цвет текста меняется на желтый
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
                 }
 
-                Console.WriteLine(i+1 + ". " + fs.Name);
+                Console.WriteLine(i+1 + ". " + fs.Name); //консоль выводит нумерацию и имя объекта
             }
         }
 
         static void Main(string[] args)
         {
 
-            while (true)
+            while (true) //цикл бесконечный
             {
-                Show();
-                ConsoleKeyInfo cki = Console.ReadKey();
+                Show(); //запускается функция Show
+                ConsoleKeyInfo cki = Console.ReadKey(); //перменная для работы с клавишами
                 switch (cki.Key)
                 {
-                    case ConsoleKey.UpArrow:
+                    case ConsoleKey.UpArrow: //при нажатия следующих клавиш, выполняются соответстующие функции
                         UpArrow();
                         break;
                     case ConsoleKey.DownArrow:
@@ -84,84 +84,83 @@ namespace FarManager_lab3
             }
         }
 
-        static void UpArrow()
+        static void UpArrow() //функция для клавиши UpArrow
         {
-            selectedindex--;
+            selectedindex--; //выбранный индекс уменьшается
             if (selectedindex < 0)
             {
                 selectedindex = 0;
             }
         }
 
-        static void DownArrow()
+        static void DownArrow() //функция для клавиши DownArrow
         {
-            selectedindex++;
+            selectedindex++; //выбранный индекс увеличивается
         }
 
-        static void OpenFile()
+        static void OpenFile() //функция для клавиши Enter
         {
             Console.Clear();
 
-            if (currentFSI.GetType() == typeof(DirectoryInfo))
+            if (currentFSI.GetType() == typeof(DirectoryInfo)) //если текущий элемент, это папка
             {
-                selectedindex = 0;
-                hist.Push(path);
-                path = currentFSI.FullName;
+                selectedindex = 0; //индекс приравнивается к нулю
+                hist.Push(path); //стэк заходит во внутрь папки
+                path = currentFSI.FullName; //пусть приравнивается новому пути 
                 Console.Clear();
             }
-            else
+            else //если текущий элемент, это файл
             {
-                FileStream fs = new FileStream(currentFSI.FullName, FileMode.Open, FileAccess.Read);
-                StreamReader sr = new StreamReader(fs);
-                Console.WriteLine(sr.ReadToEnd());
-                Console.ReadKey();
+                FileStream fs = new FileStream(currentFSI.FullName, FileMode.Open, FileAccess.Read); //класс используемый для работы с файловыми данными (путь=выбранный файл)
+                StreamReader sr = new StreamReader(fs); //StreamReader считывает содержимое файла
+                Console.WriteLine(sr.ReadToEnd()); //консоль выводит все содержимое файла от начала до конца
+                Console.ReadKey();     
                 sr.Close();
                 fs.Close();
             }
             Console.Clear();
         }
 
-        static void Escape ()
+        static void Escape () //функция для клавиши Escape
         {
-            path = hist.Peek();
-            hist.Pop();
-            selectedindex = 0;
+            path = hist.Peek(); //путь последней папки, show запустится из родительской папки
+            hist.Pop(); //удаляем
+            selectedindex = 0; //выбранный индекс приравнивается к нулю
             Console.Clear();
         }
 
-        static void Delete ()
+        static void Delete () //функция для клавиши Delete
         {
-            if (currentFSI.GetType()==typeof(FileInfo))
+            if (currentFSI.GetType()==typeof(FileInfo)) //если выбранный объект файл, его путь полностью удаляется
             {
                 File.Delete(currentFSI.FullName);
             }
-            else
+            else //если выбранный объект папка, его путь полностью удаляется
             {
-                Directory.Delete(currentFSI.FullName, true);
+                Directory.Delete(currentFSI.FullName, true); //true-означает удаление не пустых папок тоже
             }
             Console.Clear();
             selectedindex = 0;
         }
 
-        static void Rename ()
+        static void Rename () //функция для клавиши Rename
         {
-            Console.SetCursorPosition(10, 30);
+            Console.SetCursorPosition(10, 30); //снизу консоля выводится следующий текст
             Console.Write("Enter new name:");
-            string path = currentFSI.FullName;
-            string pr = new DirectoryInfo(path).Parent.FullName; //до ForLab3
+            string path = currentFSI.FullName; //путь->путь выбранного объекта
+            string pr = new DirectoryInfo(path).Parent.FullName; //pr->переменная, которая берет путь до название объекта
             string newName = Console.ReadLine();
 
-            if (currentFSI.GetType() == typeof(FileInfo))
+            if (currentFSI.GetType() == typeof(FileInfo)) //если выбранный объект файл, ему присваивается новое имя
             {
                 File.Move(path, pr + "\\" + newName);
             }
-            else
+            else //если выбранный объект папка, ему также присваивается новое заданное имя
             {
                 Directory.Move(path, pr + "\\" + newName);
             }
 
             Console.Clear();
-
 
         }
 

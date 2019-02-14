@@ -9,39 +9,39 @@ namespace Task_3_DirectoryFileInfos
 {
     class Program
     {
-        static string path = @"C:\Users\ASUS\Desktop\c++"; //neccessary path
+        static string path = @"C:\Users\ASUS\Desktop\c++"; //используемый путь
 
         static void Main(string[] args)
         {
-            Show(path, 0); //path and indent
+            Show(path, 0); //путь, отступ
         }
 
         static void Show(string path, int x)
         {
-            DirectoryInfo d = new DirectoryInfo(@path); //path of Directory
-            FileSystemInfo[] fsi = d.GetFileSystemInfos(); //Array that reads Directories and Files
-            string s = new string(' ', x);
+            DirectoryInfo d = new DirectoryInfo(@path); //все папки берутся с указанного пути 
+            FileSystemInfo[] fsi = d.GetFileSystemInfos(); //массив, содержащий все папки и файлы
+            string s = new string(' ', x); //новая переменная для указания отступов
 
 
             for (int i = 0; i < fsi.Length; i++) 
             {
-                FileSystemInfo fs = fsi[i];
+                FileSystemInfo fs = fsi[i]; 
 
-                if (fs.GetType() == typeof(FileInfo))
+                if (fs.GetType() == typeof(FileInfo)) //если тип объекта файл, цвет текста меняется на Cyan
                 {
-                    Console.ForegroundColor = ConsoleColor.Cyan; //Files are painted to the Cyan color
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                 }
-                else
+                else //если объект является папкой, его цвет меняется на желтый
                 {
-                    Console.ForegroundColor = ConsoleColor.Yellow; //Directories are painted to the Yellow color
+                    Console.ForegroundColor = ConsoleColor.Yellow; 
                 }
 
-                Console.WriteLine(s + fs.Name); //All names are printed
+                Console.WriteLine(s + fs.Name); //выводятся имена всех объектов
 
 
                 if (fs.GetType() == typeof(DirectoryInfo))
                 {
-                    Show(@fs.FullName, x + 3); //if it is a Directory Files, we go to the inside of folder with indent
+                    Show(@fs.FullName, x + 3); //если выбранный объект является папкой, мы заходим во внутрь папки с указанным отступом
                 }
 
             }

@@ -10,16 +10,16 @@ namespace Task_4_Stars
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine()); //int n that shows the number of stars that will be executed
+            int n = int.Parse(Console.ReadLine()); //консоль считывает число
 
             for (int i = 1; i <= n; i++)
             {
-                for (int j = 1; j <= n; j++) //2d arrays
+                for (int j = 1; j <= n; j++) //используется двойной массив
                 {
-                    if (j <= i) //if j is lesser or equal to i
-                        Console.Write("[*]"); //console shows [*]
+                    if (j <= i) 
+                        Console.Write("[*]"); //консоль выводит [*]
                 }
-                Console.WriteLine(); //[*] executed line by line
+                Console.WriteLine(); 
 
             }
         }

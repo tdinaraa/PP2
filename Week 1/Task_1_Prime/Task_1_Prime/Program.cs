@@ -8,39 +8,39 @@ namespace Task_1_Prime
 {
     class Program
     {
-        static bool isPrime(int num) //function that checks is the number prime or not
+        static bool isPrime(int num) //функция, проверяющая число на простоту
         {
             if (num == 1)
-                return false; //number 1 is not prime
-            for (int i = 2; i * i <= num; i++) //check other numbers to prime. It must be checked until square root
-                if (num % i == 0) //if remainder of the number is equal to 0, when we divide it to i
-                    return false; //number is not prime 
-            return true; //on the other way, it is prime number
+                return false; 
+            for (int i = 2; i * i <= num; i++) 
+                if (num % i == 0) //если остаток числа от деления на i ровно нулю, число не простое
+                    return false; 
+            return true; 
         }
 
         static void Main(string[] args)
         {
-            int num = int.Parse(Console.ReadLine()); //input the amount of number that will exist
-            int sum = 0; //sum is used to calculate the amount of prime numbers
-            int[] arr = new int[10000]; //creating the array of numbers
-            int[] arr_prime = new int[10000]; //new array that saves prime numbers
-            int j = 0; //new variable
-            string[] s = Console.ReadLine().Split(); //array s reads all numbers that we enter and split them
-            //we used srting, because Console.Readline does not read int
+            int num = int.Parse(Console.ReadLine()); //консоль читает число, которое вводится
+            int sum = 0; //сумма нужна для подсчета простых чисел в ряду
+            int[] arr = new int[10000]; //массив чисел
+            int[] arr_prime = new int[10000]; //массив, хранящий ряд простых чисел
+            int j = 0; 
+            string[] s = Console.ReadLine().Split(); //массив, считывающий все внесенные числа, и он также разделяет числа между собой
 
             for (int i = 0; i < num; ++i)
             {
-                arr[i] = int.Parse(s[i]); //string is converted to int
-                if (isPrime(arr[i]) == true) //if the number is prime
+                arr[i] = int.Parse(s[i]); //string переводится в int
+                if (isPrime(arr[i]) == true) //если число простое, сумма увеличивется и записывается в новый массив
                 {
-                    sum++; //sum increases
-                    arr_prime[j] = arr[i]; //new array of prime numbers is filling
+                    sum++; 
+                    arr_prime[j] = arr[i]; 
                     j++;
                 }
             }
-            Console.WriteLine(sum); //Console shows how many prime numbers are exist
+
+            Console.WriteLine(sum); //консоль выводит количество простых чисел
             for (int i = 0; i < sum; i++)
-                Console.Write(arr_prime[i] + " "); //Console executes all prime numbers
+                Console.Write(arr_prime[i] + " "); //консоль выводит все простые числа
         }
     }
 }

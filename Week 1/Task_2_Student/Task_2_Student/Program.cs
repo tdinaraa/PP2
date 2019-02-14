@@ -6,26 +6,25 @@ using System.Threading.Tasks;
 
 namespace Task_2_Student
 {
-    class Student //special class for Student
+    class Student //отдельный класс студентов
     {
-        //global variables of class Student
-        public string name; //name is identified as string
-        public string id; //id is identified as string (it may consists letters and numbers)
-        public int year; //year is identified as int (numbers only)
+        //глобальные переменные класса
+        public string name; 
+        public string id; 
+        public int year; 
 
-
-        public Student(string name, string id) //constructor with two parameters
+        public Student(string name, string id) //конструктор с двумя параметрами
         {
-            this.name = name; //initialize variables using pointers
+            this.name = name; //переменные инициализируются при помощи указателя
             this.id = id; 
         }
 
-        public void Addyear()
+        public void Addyear() //метод, используемый для увелечения года
         {
-            this.year++; //method that used to increase the year
+            this.year++; 
         }
 
-        public void PrintInfo () //method that used to print all info about student
+        public void PrintInfo () //метод, используемый для вывода данных
         {
             Console.WriteLine(name);
             Console.WriteLine(id);
@@ -37,13 +36,12 @@ namespace Task_2_Student
     {
         static void Main(string[] args)
         {
-            Student st = new Student("Kamilla", "18BD112100"); //st parameter consists data of new student
-            st.year = 1; //year of student is equal to 1
-            st.Addyear(); //year is increased to one by using above method
+            Student st = new Student("Kamilla", "18BD112100"); //параметр содержащий данные студента
+            st.year = 1; 
+            st.Addyear(); //год увеличивается
 
-            st.PrintInfo(); //all data is printed by using above method
+            st.PrintInfo(); //вывод всех данных
             
-
         }
     }
 }
