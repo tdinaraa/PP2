@@ -56,10 +56,14 @@ namespace Task_2_secondversion
 
             Student st = new Student(name, id); //новый объект, использующий имя и айди
 
-            for (int i = 0; i < 4; i++) //цикл для вывода данных
+            
+            for (int i = 2; i <=6; i++) //цикл для вывода данных
             {
                 st.AddYear(); //каждый раз год увеличивается
-                Console.WriteLine(st.Name() + " " + st.ID()+ " " + st.Year()); //все данные выводятся
+                if (i != 2)
+                {
+                    Console.WriteLine(st.Name() + " " + st.ID() + " " + st.Year()); //все данные выводятся
+                }
             }
 
         }

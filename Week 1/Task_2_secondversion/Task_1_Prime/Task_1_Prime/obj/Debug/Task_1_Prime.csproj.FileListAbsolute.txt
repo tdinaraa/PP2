@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\Task_1_Prime\Task_1_Prime\bin\Debug\Task_1_Prime.exe.config
+C:\Users\ASUS\source\repos\Task_1_Prime\Task_1_Prime\bin\Debug\Task_1_Prime.exe
+C:\Users\ASUS\source\repos\Task_1_Prime\Task_1_Prime\bin\Debug\Task_1_Prime.pdb
+C:\Users\ASUS\source\repos\Task_1_Prime\Task_1_Prime\obj\Debug\Task_1_Prime.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Task_1_Prime\Task_1_Prime\obj\Debug\Task_1_Prime.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Task_1_Prime\Task_1_Prime\obj\Debug\Task_1_Prime.exe
+C:\Users\ASUS\source\repos\Task_1_Prime\Task_1_Prime\obj\Debug\Task_1_Prime.pdb
+C:\Users\ASUS\Desktop\github\Week 1\Task_1_Prime\Task_1_Prime\bin\Debug\Task_1_Prime.exe.config
+C:\Users\ASUS\Desktop\github\Week 1\Task_1_Prime\Task_1_Prime\bin\Debug\Task_1_Prime.exe
+C:\Users\ASUS\Desktop\github\Week 1\Task_1_Prime\Task_1_Prime\bin\Debug\Task_1_Prime.pdb
+C:\Users\ASUS\Desktop\github\Week 1\Task_1_Prime\Task_1_Prime\obj\Debug\Task_1_Prime.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\github\Week 1\Task_1_Prime\Task_1_Prime\obj\Debug\Task_1_Prime.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\github\Week 1\Task_1_Prime\Task_1_Prime\obj\Debug\Task_1_Prime.exe
+C:\Users\ASUS\Desktop\github\Week 1\Task_1_Prime\Task_1_Prime\obj\Debug\Task_1_Prime.pdb

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfMark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Mark>
+    <score>67</score>
+  </Mark>
+  <Mark>
+    <score>98</score>
+  </Mark>
+  <Mark>
+    <score>65</score>
+  </Mark>
+  <Mark>
+    <score>90</score>
+  </Mark>
+  <Mark>
+    <score>89</score>
+  </Mark>
+</ArrayOfMark>

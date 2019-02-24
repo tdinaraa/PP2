@@ -1,0 +1,7 @@
+C:\Users\ASUS\source\repos\Compex number_serialize_deserialize\Compex number_serialize_deserialize\bin\Debug\Compex number_serialize_deserialize.exe.config
+C:\Users\ASUS\source\repos\Compex number_serialize_deserialize\Compex number_serialize_deserialize\bin\Debug\Compex number_serialize_deserialize.exe
+C:\Users\ASUS\source\repos\Compex number_serialize_deserialize\Compex number_serialize_deserialize\bin\Debug\Compex number_serialize_deserialize.pdb
+C:\Users\ASUS\source\repos\Compex number_serialize_deserialize\Compex number_serialize_deserialize\obj\Debug\Compex number_serialize_deserialize.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Compex number_serialize_deserialize\Compex number_serialize_deserialize\obj\Debug\Compex number_serialize_deserialize.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Compex number_serialize_deserialize\Compex number_serialize_deserialize\obj\Debug\Compex number_serialize_deserialize.exe
+C:\Users\ASUS\source\repos\Compex number_serialize_deserialize\Compex number_serialize_deserialize\obj\Debug\Compex number_serialize_deserialize.pdb

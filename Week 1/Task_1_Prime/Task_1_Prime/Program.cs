@@ -14,7 +14,7 @@ namespace Task_1_Prime
                 return false; 
             for (int i = 2; i * i <= num; i++) 
                 if (num % i == 0) //если остаток числа от деления на i ровно нулю, число не простое
-                    return false; 
+                    return false;
             return true; 
         }
 
@@ -24,8 +24,9 @@ namespace Task_1_Prime
             int sum = 0; //сумма нужна для подсчета простых чисел в ряду
             int[] arr = new int[10000]; //массив чисел
             int[] arr_prime = new int[10000]; //массив, хранящий ряд простых чисел
-            int j = 0; 
+            int j = 0;
             string[] s = Console.ReadLine().Split(); //массив, считывающий все внесенные числа, и он также разделяет числа между собой
+            
 
             for (int i = 0; i < num; ++i)
             {
@@ -37,7 +38,6 @@ namespace Task_1_Prime
                     j++;
                 }
             }
-
             Console.WriteLine(sum); //консоль выводит количество простых чисел
             for (int i = 0; i < sum; i++)
                 Console.Write(arr_prime[i] + " "); //консоль выводит все простые числа
