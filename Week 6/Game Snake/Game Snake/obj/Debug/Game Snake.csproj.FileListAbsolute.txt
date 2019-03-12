@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\Game Snake\Game Snake\bin\Debug\Game Snake.exe.config
+C:\Users\ASUS\source\repos\Game Snake\Game Snake\bin\Debug\Game Snake.exe
+C:\Users\ASUS\source\repos\Game Snake\Game Snake\bin\Debug\Game Snake.pdb
+C:\Users\ASUS\source\repos\Game Snake\Game Snake\obj\Debug\Game Snake.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Game Snake\Game Snake\obj\Debug\Game Snake.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Game Snake\Game Snake\obj\Debug\Game Snake.exe
+C:\Users\ASUS\source\repos\Game Snake\Game Snake\obj\Debug\Game Snake.pdb
+C:\Users\ASUS\source\repos\Game Snake\Game Snake\bin\Debug\Levels\Level2.txt
+C:\Users\ASUS\Desktop\c#\Game Snake\Game Snake\obj\Debug\Game Snake.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\c#\Game Snake\Game Snake\obj\Debug\Game Snake.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\c#\Game Snake\Game Snake\obj\Debug\Game Snake.exe
+C:\Users\ASUS\Desktop\c#\Game Snake\Game Snake\obj\Debug\Game Snake.pdb
+C:\Users\ASUS\Desktop\c#\Game Snake\Game Snake\bin\Debug\Levels\Level2.txt
+C:\Users\ASUS\Desktop\c#\Game Snake\Game Snake\bin\Debug\Game Snake.exe.config
+C:\Users\ASUS\Desktop\c#\Game Snake\Game Snake\bin\Debug\Game Snake.exe
+C:\Users\ASUS\Desktop\c#\Game Snake\Game Snake\bin\Debug\Game Snake.pdb
+C:\Users\ASUS\Desktop\c#\Game Snake\Game Snake\bin\Debug\Levels\Level3.txt
