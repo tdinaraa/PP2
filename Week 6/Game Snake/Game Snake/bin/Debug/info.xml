@@ -3,25 +3,21 @@
   <s>
     <body>
       <Point>
-        <X>5</X>
-        <Y>25</Y>
+        <X>24</X>
+        <Y>9</Y>
       </Point>
       <Point>
-        <X>4</X>
-        <Y>25</Y>
-      </Point>
-      <Point>
-        <X>3</X>
-        <Y>25</Y>
+        <X>24</X>
+        <Y>8</Y>
       </Point>
     </body>
-    <score>2</score>
+    <score>1</score>
   </s>
   <f>
     <body>
       <Point>
-        <X>9</X>
-        <Y>20</Y>
+        <X>25</X>
+        <Y>10</Y>
       </Point>
     </body>
   </f>
@@ -574,6 +570,9 @@
     </body>
   </w>
   <lvl>1</lvl>
+  <maxScore>3</maxScore>
+  <isAlive>true</isAlive>
+</GameState>
   <maxScore>3</maxScore>
   <isAlive>true</isAlive>
 </GameState>

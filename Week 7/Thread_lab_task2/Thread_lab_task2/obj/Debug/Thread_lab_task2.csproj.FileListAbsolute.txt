@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\c#\Thread_lab_task2\Thread_lab_task2\obj\Debug\Thread_lab_task2.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\c#\Thread_lab_task2\Thread_lab_task2\obj\Debug\Thread_lab_task2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\c#\Thread_lab_task2\Thread_lab_task2\bin\Debug\Thread_lab_task2.exe.config
+C:\Users\ASUS\Desktop\c#\Thread_lab_task2\Thread_lab_task2\bin\Debug\Thread_lab_task2.exe
+C:\Users\ASUS\Desktop\c#\Thread_lab_task2\Thread_lab_task2\bin\Debug\Thread_lab_task2.pdb
+C:\Users\ASUS\Desktop\c#\Thread_lab_task2\Thread_lab_task2\obj\Debug\Thread_lab_task2.exe
+C:\Users\ASUS\Desktop\c#\Thread_lab_task2\Thread_lab_task2\obj\Debug\Thread_lab_task2.pdb
+C:\Users\ASUS\Desktop\github\Week 7\Thread_lab_task2\Thread_lab_task2\bin\Debug\Thread_lab_task2.exe.config
+C:\Users\ASUS\Desktop\github\Week 7\Thread_lab_task2\Thread_lab_task2\bin\Debug\Thread_lab_task2.exe
+C:\Users\ASUS\Desktop\github\Week 7\Thread_lab_task2\Thread_lab_task2\bin\Debug\Thread_lab_task2.pdb
+C:\Users\ASUS\Desktop\github\Week 7\Thread_lab_task2\Thread_lab_task2\obj\Debug\Thread_lab_task2.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\github\Week 7\Thread_lab_task2\Thread_lab_task2\obj\Debug\Thread_lab_task2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\github\Week 7\Thread_lab_task2\Thread_lab_task2\obj\Debug\Thread_lab_task2.exe
+C:\Users\ASUS\Desktop\github\Week 7\Thread_lab_task2\Thread_lab_task2\obj\Debug\Thread_lab_task2.pdb

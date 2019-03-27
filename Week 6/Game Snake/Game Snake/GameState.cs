@@ -121,7 +121,7 @@ namespace Game_Snake
 
         public void Save()
         {
-            FileStream fs = new FileStream("info.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            FileStream fs = new FileStream("info2.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
             XmlSerializer xs = new XmlSerializer(typeof(GameState));
             xs.Serialize(fs, this);
             fs.Close();
@@ -130,7 +130,7 @@ namespace Game_Snake
 
         public static GameState Load()
         {
-            FileStream fs = new FileStream("info.xml", FileMode.Open, FileAccess.Read);
+            FileStream fs = new FileStream("info2.xml", FileMode.Open, FileAccess.Read);
             XmlSerializer xs = new XmlSerializer(typeof(GameState));
             GameState gs = xs.Deserialize(fs) as GameState;
             fs.Close();

@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\Thread_lab_task1\Thread_lab_task1\bin\Debug\Thread_lab_task1.exe.config
+C:\Users\ASUS\source\repos\Thread_lab_task1\Thread_lab_task1\bin\Debug\Thread_lab_task1.exe
+C:\Users\ASUS\source\repos\Thread_lab_task1\Thread_lab_task1\bin\Debug\Thread_lab_task1.pdb
+C:\Users\ASUS\source\repos\Thread_lab_task1\Thread_lab_task1\obj\Debug\Thread_lab_task1.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Thread_lab_task1\Thread_lab_task1\obj\Debug\Thread_lab_task1.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Thread_lab_task1\Thread_lab_task1\obj\Debug\Thread_lab_task1.exe
+C:\Users\ASUS\source\repos\Thread_lab_task1\Thread_lab_task1\obj\Debug\Thread_lab_task1.pdb
+C:\Users\ASUS\Desktop\c#\Thread_lab_task1\Thread_lab_task1\bin\Debug\Thread_lab_task1.exe.config
+C:\Users\ASUS\Desktop\c#\Thread_lab_task1\Thread_lab_task1\bin\Debug\Thread_lab_task1.exe
+C:\Users\ASUS\Desktop\c#\Thread_lab_task1\Thread_lab_task1\bin\Debug\Thread_lab_task1.pdb
+C:\Users\ASUS\Desktop\c#\Thread_lab_task1\Thread_lab_task1\obj\Debug\Thread_lab_task1.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\c#\Thread_lab_task1\Thread_lab_task1\obj\Debug\Thread_lab_task1.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\c#\Thread_lab_task1\Thread_lab_task1\obj\Debug\Thread_lab_task1.exe
+C:\Users\ASUS\Desktop\c#\Thread_lab_task1\Thread_lab_task1\obj\Debug\Thread_lab_task1.pdb
