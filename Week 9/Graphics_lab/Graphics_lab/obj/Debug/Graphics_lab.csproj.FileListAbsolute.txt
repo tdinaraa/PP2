@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\bin\Debug\Graphics_lab.exe.config
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\bin\Debug\Graphics_lab.exe
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\bin\Debug\Graphics_lab.pdb
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\obj\Debug\Graphics_lab.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\obj\Debug\Graphics_lab.Form1.resources
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\obj\Debug\Graphics_lab.Properties.Resources.resources
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\obj\Debug\Graphics_lab.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\obj\Debug\Graphics_lab.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\obj\Debug\Graphics_lab.exe
+C:\Users\ASUS\Desktop\c#\Graphics_lab\Graphics_lab\obj\Debug\Graphics_lab.pdb

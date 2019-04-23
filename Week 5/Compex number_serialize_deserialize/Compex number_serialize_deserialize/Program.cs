@@ -61,6 +61,8 @@ namespace Compex_number_serialize_deserialize
 
             Numbers n2=Numbers.Load();
             n2.ShowInfo();
+
+            Console.ReadKey();
         }
     }
 }

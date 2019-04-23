@@ -11,11 +11,7 @@ namespace Mark_list_serialization_deserialization
     class Program
     {
         static void Main(string[] args)
-        {
-           /*List<Mark> list = new List<Mark>();
-            xsSave(list);*/
-
-         
+        {                  
           List<Mark> marks = ListSerial.xsLoad();
 
             Mark emark = new Mark(int.Parse(Console.ReadLine()));
@@ -27,6 +23,7 @@ namespace Mark_list_serialization_deserialization
             }
 
             ListSerial.xsSave(marks);
+            Console.ReadKey();
             
         }
 
